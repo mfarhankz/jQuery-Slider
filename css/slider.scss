@@ -1,0 +1,38 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+body{
+  font-size: 12px;
+  font-family: Arial;
+}
+.slider{
+  width:600px;
+  margin:50px auto 0;
+  overflow-x:auto;
+  ul{
+    list-style: none;
+    width: 10000px;
+    float: left;
+    li{
+      float:left;
+    }
+  }
+}
+.controller{
+  width:600px;
+  margin:20px auto 0;
+  display:none;
+  button{
+    background:#ccc;
+    padding:10px;
+    margin:0 1px;
+    border:none;
+    cursor:pointer;
+    &:hover{
+      background:#333;
+      color:#fff;
+    }
+  }
+}
